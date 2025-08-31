@@ -1,3 +1,3 @@
-# Dino Code Utility
+# Dino Code Utility for Unity Projects
 Code I use to improve my unity development flow. This repo contains multiple base code to implement different systems.
 
