@@ -2,8 +2,13 @@ using System;
 using DG.Tweening;
 using UnityEngine;
 
+//Legacy UI
 namespace Dino.Utils
 { 
+    /// <summary>
+    ///  Obsolete: Use UIManager and UIWindow from Dino.UtilityTools.UI instead.
+    ///  This class represents a menu window in the UI system, providing functionality to show and hide the window with animations.
+    /// </summary>
     public class MenuWindow : MonoBehaviour
     {
         #region Serialized Fields
