@@ -216,6 +216,11 @@ namespace Dino.UtilityTools.Extensions
             v.z = Mathf.Floor(v.z);
             return v;
         }
+        /// <summary>
+        ///  Rounds to nearest Vector Int value.
+        /// </summary>
+        /// <param name="v">Vector to round</param>
+        /// <returns></returns>
         public static Vector3Int RoundToInt(this Vector3 v)
         {
             return new Vector3Int(
@@ -789,14 +794,6 @@ namespace Dino.UtilityTools.Extensions
         #endregion
 
         #region Events
-        // public static int GetEventCount(this UnityEvent e)
-        // {
-        //     var field = BGSReflection.GetField(e.GetType(), "m_Calls");
-        //     var invokeCallList = field.GetValue(e);
-        //     var property = BGSReflection.GetProperty(invokeCallList.GetType(), "Count");
-        //     return property == null ? -1 : (int)property.GetValue(invokeCallList);
-        // }
-
         public static void HandleSubscribe(this UnityEvent e, UnityAction a, bool subscribe, bool safe = false)
         {
             if (subscribe)

@@ -9,7 +9,7 @@ namespace Dino.Utils
     ///  Obsolete: Use UIManager and UIWindow from Dino.UtilityTools.UI instead.
     ///  This class represents a menu window in the UI system, providing functionality to show and hide the window with animations.
     /// </summary>
-    public class MenuWindow : MonoBehaviour
+    public class MenuWindowLegacy : MonoBehaviour
     {
         #region Serialized Fields
 

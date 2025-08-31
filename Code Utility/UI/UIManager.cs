@@ -60,7 +60,7 @@ namespace Dino.UtilityTools.UI
         private void GetAllUIWindows()
         {
             uiWindows.Clear();
-            UIWindow[] windows = FindObjectsOfType<UIWindow>(true);
+            UIWindow[] windows = FindObjectsByType<UIWindow>(FindObjectsSortMode.InstanceID);
             uiWindows.AddRange(windows);
         }
 

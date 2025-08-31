@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f9ffc3c-3b60-410a-a81d-0af9ba4a7ddf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code Utility/Extensions/CommonExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Code Utility/Extensions/CommonExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code Utility/Misc/TimerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Code Utility/Misc/TimerBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code Utility/Singleton/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Code Utility/Singleton/Singleton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code Utility/UI/MenuWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Code Utility/UI/MenuWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code Utility/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Code Utility/UI/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code Utility/UI/UIWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Code Utility/UI/UIWindow.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +37,14 @@
     <setting file="file://$PROJECT_DIR$/Code Utility/Audio/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Code Utility/Audio/AudioManagerData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Code Utility/Audio/Legacy/AudioManagerEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Code Utility/Extensions/CommonExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Code Utility/Extensions/DebugExtension.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Code Utility/Extensions/GameObjectExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Code Utility/Misc/CallbackValue.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Code Utility/Misc/TimerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Code Utility/Singleton/Singleton.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Code Utility/UI/MenuWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Code Utility/UI/UIManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Code Utility/UI/UIWindow.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -46,9 +57,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Documentos/Trabajo/DINO/DinoUtility",
@@ -63,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1756491808112</updated>
       <workItem from="1756491809202" duration="202000" />
-      <workItem from="1756673950767" duration="703000" />
+      <workItem from="1756673950767" duration="1710000" />
     </task>
     <servers />
   </component>

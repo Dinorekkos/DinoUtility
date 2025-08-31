@@ -33,18 +33,19 @@ namespace Dino.UtilityTools.UI
 
         private void Start()
         {
-            if (hideOnStart)
-            {
-                Hide(true);
-            }
-
+            Initialize();
         }
 
+        protected virtual void Initialize()
+        {
+            if(hideOnStart) Hide(true);
+        
+        }
         public virtual void Show(bool instant = false)
         {
             windowCanvas.gameObject.SetActive(true);
         }
-
+    
         public virtual void Hide(bool instant = false)
         {
             windowCanvas.gameObject.SetActive(false);

@@ -1,15 +1,11 @@
-//Last Update
-//Dino 2024/05/10 
-// Fix Timer Bug if timer was countdown and change method name "StartLoopableTimer"to => "StartLoopTimer"
-
 using System;
 using UnityEngine;
 
 namespace Dino.Utils
 {
     /// <summary>
-    /// Last update 14/03/2025 Dino
-    /// A class that allows you to set a timer.
+    /// Last update 31/08/2025 Dino
+    /// A class that allows you to create a timer with start, pause, reset and stop functionalities.
     /// </summary>
     public class TimerBase : MonoBehaviour
     {
