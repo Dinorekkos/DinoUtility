@@ -19,3 +19,4 @@ Code I use to improve my unity development flow. This repo contains multiple bas
 - [LeanPool](https://assetstore.unity.com/packages/tools/utilities/lean-pool-35666) - A lightweight object pooling solution for Unity.
 - [LeanTouch](https://assetstore.unity.com/packages/tools/input-management/lean-touch-30111) - A touch input system for Unity.
 - [LeanGUI](https://assetstore.unity.com/packages/tools/gui/lean-gui-72138) - A GUI system for Unity.
+- [InGameDebugConsole](https://assetstore.unity.com/packages/tools/gui/in-game-debug-console-68068) - An in-game debug console for Unity o builds.
