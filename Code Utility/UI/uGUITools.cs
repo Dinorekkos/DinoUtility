@@ -3,8 +3,11 @@ using UnityEngine;
 
 namespace Dino.UtilityTools.UI
 {
+    [ExecuteInEditMode]
     public class UtilityToolsUI : MonoBehaviour
     {
+
+        #if UNITY_EDITOR
         [MenuItem("utilityToolsUI/Anchors to Corners")]
         static void AnchorsToCorners()
         {
@@ -40,5 +43,6 @@ namespace Dino.UtilityTools.UI
 
             t.offsetMin = t.offsetMax = new Vector2(0, 0);
         }
+        #endif
     }
 }
